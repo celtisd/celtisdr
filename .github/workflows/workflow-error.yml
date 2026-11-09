@@ -1,0 +1,8 @@
+name: Workflow error
+on: push
+jobs:
+  run:
+  run-on: ubunts-latest
+  steps:
+    - run: date
+    
